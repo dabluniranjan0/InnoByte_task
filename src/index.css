@@ -1,0 +1,96 @@
+body{
+    font-family:'Inter', sans-serif;
+    
+}
+
+.leftbanner{
+    
+    background: linear-gradient(0deg, #1566d8db, #1566d8db) ,url("./assets/building.jpeg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+     
+}
+
+.passfield{
+    border: 1px solid gray;
+    width: max-content;
+    /* padding: 10px 20px; */
+}
+.passfield input{
+    border: none;
+    outline: none;
+}
+.line_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .line1{
+    border-top: 1px solid rgb(216, 216, 216);
+    width: 45%;
+  }
+  .or{
+    color: rgb(216, 216, 216);
+  }
+  .arrow{
+    opacity: 0;
+  }
+
+  .join_btn{
+    border: 1px solid transparent;
+    background: transparent;
+    box-shadow: 0px 2px 14px 1px #0000000F;
+
+  }
+  .join_btn:hover{
+    background: #F5F9FF;
+    border: 1px solid #1565D8;
+    .arrow{
+      opacity: 1;
+    }
+  }
+
+  .backbtn{
+    border: none;
+    background: transparent;
+  }
+
+  .inputfield{
+    padding: 22px;
+    width: 100%;
+    border: 1px solid #8692A6;
+    border-radius: 6px;
+    outline: none;
+    margin-bottom: 24px;
+  }
+
+  
+  .inputfield:focus{
+    border: 1px solid #1565D8 !important;
+    outline: none;
+    box-shadow: 0px 4px 10px 3px #0000001C;
+
+  }
+
+  .regbtn{
+    padding: 22px;
+    border-radius: 6px;
+    outline: none;
+    color: white;
+    border: none;
+    background: #1565D8;
+    margin-bottom: 32px;
+  }
+  .googlebtn{
+    padding: 22px;
+    border-radius: 6px;
+    outline: none;
+    width: 100%;
+    border: none;
+    background:transparent;
+    margin-bottom: 75px;
+    box-shadow: 0px 4px 10px 0px #00000014;
+    font-weight: 500;
+
+  }
