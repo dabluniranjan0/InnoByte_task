@@ -103,9 +103,12 @@ body{
       justify-content: center !important;
     }
     .text-end{
-      text-align: center !important;
+      text-align: left !important;
     }
     .logincontainer{
       width: 100% !important;
+    }
+    .logh1{
+      margin-top: 78px !important;
     }
 }

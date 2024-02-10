@@ -20,7 +20,7 @@ const SignIn = ({setPages ,page ,formData ,setFormData ,SetAccountType}) => {
     <div className="vw-100">
        <p className="text-end" style={{color:"#8692A6" ,fontSize:"18px" }}>Already have an account? <Link className="fw-bold text-decoration-none" to="/">Sign In</Link></p>
         <div className="w-75 logincontainer">
-          <h1 className="fw-bold " style={{fontSize:"30px" ,marginTop:"135px"}}> Join Us!</h1>
+          <h1 className="fw-bold logh1" style={{fontSize:"30px" ,marginTop:"135px"}}> Join Us!</h1>
           <p  style={{fontSize:"18px" , fontWeight:"400", color:"#8692A6" ,lineHeight:"28px"}}>To begin this journey, tell us what type of account you’d be opening.</p>
           <div  style={{maxWidth:"500px"}} className="d-flex flex-column gap-3 mt-5">
               <button   className="d-flex align-items-center justify-content-around gap-4 text-start py-4 px-4 rounded-1 join_btn"  onClick={IndividualHandler}>
