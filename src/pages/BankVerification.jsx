@@ -15,7 +15,7 @@ const BankVerification = ({page ,PageTitle,setPages ,formData ,setFormData ,acco
       console.log(finalformdata)
   }
   return (
-    <div className="w-100 pe-5" >
+    <div className="w-100" >
       <div >
         <Pagination page={page} PageTitle={PageTitle} setPages={setPages}/>
       </div>

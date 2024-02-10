@@ -13,7 +13,7 @@ const RegTemp = () => {
     const [accountType , SetAccountType] = useState("Individual");
 
     const[formData , setFormData] = useState({
-        fullname:"Invictus Innocent" , email:"" , password:"" , phonenumber:"" , address:"" , residence:"", bvn:"090912345567fill" 
+        fullname:"Invictus Innocent" , email:"" , password:"" , phonenumber:"" , address:"" , residence:"", bvn:"090912345567" 
     })
 
 
@@ -125,7 +125,7 @@ const RegTemp = () => {
                                         <path d="M50.0879 121.176C16.9599 121.176 -10 94.216 -10 61.0879C-10 27.9599 16.9599 1 50.0879 1C83.216 1 110.176 27.9599 110.176 61.0879C110.176 94.216 83.216 121.176 50.0879 121.176ZM50.0879 23.9401C29.6428 23.9401 12.9401 40.5735 12.9401 61.0879C12.9401 81.6024 29.5735 98.2357 50.0879 98.2357C70.6024 98.2357 87.2357 81.6024 87.2357 61.0879C87.2357 40.5735 70.6024 23.9401 50.0879 23.9401Z" stroke="#E82965"  />
                     </svg>
                 </div>
-                <div className="col-md-7  d-flex justify-content-start " style={{paddingLeft:"127px" , paddingTop:"70px"}}>
+                <div className="col-md-7  d-flex justify-content-start pe-5 reg_container" style={{paddingLeft:"127px" , paddingTop:"70px"}}>
                        
                     {PageDisplay()}
                             

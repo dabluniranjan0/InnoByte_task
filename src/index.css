@@ -94,3 +94,18 @@ body{
     font-weight: 500;
 
   }
+
+  @media (max-width:576px){
+    
+    .reg_container{
+      padding: 72px 32px !important;
+      
+      justify-content: center !important;
+    }
+    .text-end{
+      text-align: center !important;
+    }
+    .logincontainer{
+      width: 100% !important;
+    }
+}

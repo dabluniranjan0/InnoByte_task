@@ -9,7 +9,7 @@ const PersonalInfo = ({page ,PageTitle ,showpassword, setShowpassword ,setPages 
   }
   
   return (
-    <div className="w-100 pe-5">
+    <div className="w-100">
       <div >
          <Pagination page={page} PageTitle={PageTitle} setPages={setPages}/>
       </div>

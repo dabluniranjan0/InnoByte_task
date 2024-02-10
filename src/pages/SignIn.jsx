@@ -17,9 +17,9 @@ const SignIn = ({setPages ,page ,formData ,setFormData ,SetAccountType}) => {
    
 
   return (
-    <div className="vw-100 pe-5">
+    <div className="vw-100">
        <p className="text-end" style={{color:"#8692A6" ,fontSize:"18px" }}>Already have an account? <Link className="fw-bold text-decoration-none" to="/">Sign In</Link></p>
-        <div className="w-75">
+        <div className="w-75 logincontainer">
           <h1 className="fw-bold " style={{fontSize:"30px" ,marginTop:"135px"}}> Join Us!</h1>
           <p  style={{fontSize:"18px" , fontWeight:"400", color:"#8692A6" ,lineHeight:"28px"}}>To begin this journey, tell us what type of account you’d be opening.</p>
           <div  style={{maxWidth:"500px"}} className="d-flex flex-column gap-3 mt-5">
