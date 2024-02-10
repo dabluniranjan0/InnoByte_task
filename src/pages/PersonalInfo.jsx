@@ -49,7 +49,7 @@ const PersonalInfo = ({page ,PageTitle ,showpassword, setShowpassword ,setPages 
 
               <label className="">
                 <p style={{color:"#696F79"}}>Create password*</p>
-                <div className="d-flex   passfield align-items-center justify-content-between inputfield">
+                <div style={{boxSizing:"border-box",overflow:"hidden"}} className="d-flex   passfield align-items-center justify-content-between inputfield">
                   
                     <input
                       required
